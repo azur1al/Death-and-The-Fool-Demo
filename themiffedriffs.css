@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Arial;
-  src: url(fonts/QuirkyShading.ttf);
+  src: url(https://azur1al.github.io/Death-and-The-Fool-Demo/fonts/QuirkyShading.ttf);
 }
 
 body {
@@ -13,7 +13,7 @@ body {
   text-align: justify;
   color:rgba(240, 240, 240, 0.8);
   padding: 20px;
-  background-image: url(images/miffedriffsbackground.jpg);
+  background-image: url(https://azur1al.github.io/Death-and-The-Fool-Demo/images/miffedriffsbackground.jpg);
   margin-left: 20%;
   margin-right: 20%;
 } 
@@ -123,4 +123,5 @@ h2{
   }
 
 }
+
 

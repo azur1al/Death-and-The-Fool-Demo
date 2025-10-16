@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  background-image: url(/images/mailbackground.jpg);
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+} 
+
+h2{
+  font-family: Georgia;
+  font-weight: normal;
+  font-size: 30;
+  text-align: left;
+}
+
+/* left */
+.leftcolumn {
+  float: left;
+  width: 8%;
+}
+
+/* right */
+.rightcolumn {
+  float: left;
+  width: 92%;
+  padding-left: 20px;
+}
+
+/* menu (left) */
+.cardleft {
+  color: black;
+  background-image: url(/images/mailbackground.jpg);
+  background-size:cover;
+  text-align: center;
+  background: rgba(244, 243, 241, 0.8);
+  padding: 20px;
+  height: 100%; 
+}
+
+/* email */
+.cardright {
+  color:black;
+  border-radius: 20px;
+  background: rgba(244, 243, 241, 0.8);
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* box */
+.box {
+  color: black;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: rgba(233, 231, 228, 0.8);
+}
+
+/* gaps */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* For accordion - Closed. */
+input {
+  display: none;
+}
+
+label {
+  display: block;
+  padding: 8px 22px;
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  background: rgba(244, 243, 241, 0.8);
+  border-radius: 20px;
+  color: black;
+  transition: ease 0.5s;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+/* For accordion - Mouse hovered. */
+label:hover {
+  background: rgba(233, 231, 228, 0.8);
+}
+
+/* For accordion - Opened. */
+.content {
+  background: rgba(244, 243, 241, 0.8);
+  padding: 10px 25px 25px 25px;
+  margin: 0 0 0 0;
+  border-radius: 20px;
+  transition: ease 0.5s;
+}
+
+input + label + .content {
+  display: none;
+}
+
+input:checked + label + .content {
+  display: block;
+}
+
+/* footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(178, 178, 178, 0.0);
+  margin-top: 20px;
+}

@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+/* font sets */
+@font-face {
+  font-family: Arial;
+  src: url(/fonts/CheeseOrange-Regular.ttf);
+}
+
+/* site information */
+body {
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  text-align: justify;
+  color:rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  background: rgba(167, 181, 229, 1);
+  background-image:url(/images/hhhbackground.jpg);
+  background-blend-mode: lighten;
+} 
+
+/* blog header */
+.header {
+  border-radius: 25px;
+  font-family: Arial;
+  font-size: 150px;
+  padding: 30px;  
+  text-align: center;
+  color:rgba(240, 240, 240, 1);
+  text-shadow: 10px 10px 2px rgba(167, 181, 229, 1);;
+  background:url(/images/hhhbackground.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* for the titles */
+h2{
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 40;
+  text-align: center;
+}
+
+/* loft column - about me, need help */
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+/* middle column - where the posts go */
+.middlecolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+/* right column - resources */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* text container (for posts, about me, need help, and resources */
+.card {
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-top: 20px;
+  background: rgba(240, 240, 240, 0.8);
+}
+
+/* interior text container (for quotes, requests from others, etc) */
+.box {
+  padding: 20px;
+  margin-top: 20px;
+  background: rgba(167, 181, 229, 0.2);
+}
+
+
+/* formatting for the link formatting */
+/* plain link */
+a:link {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.8);
+}
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.8);
+}
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.8);
+}
+/* selected link */
+a:active {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.8);
+} 
+
+
+/* formatting for the comment sections */
+/* the box that holds the comment */
+.comment-box,
+.post-comment .list {
+  background: rgba(167, 181, 229, 0.1);
+}
+/* size of each individual comment */
+.comment-session {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+/*  */
+.post-comment .list {
+  width: 100%;
+  margin-bottom: 12px;
+}
+/* the user for each comment */
+.post-comment .list .user {
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+}
+/* the user profile image */
+.post-comment .list .user img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+/* the username */
+.comment-session .name {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+/* the text beneath the username */
+.post-comment .list .day {
+  font-size: 12px;
+}
+/* the text component of the comment */
+.post-comment .comment-post {
+  padding: 0 15px 15px;
+  font-size: 14px;
+}
+
+
+/* gaps between columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer portion */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(178, 178, 178, 0.0);
+  margin-top: 20px;
+}
+
+/* responsive layout */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .middlecolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}

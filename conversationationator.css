@@ -6,12 +6,12 @@
 /* FONTS N SHIT */
 @font-face {
   font-family: Georgia;
-  src: url(/fonts/sdautopilot.ttf);
+  src: url(./fonts/sdautopilot.ttf);
 }
 
 @font-face {
   font-family: 'Times New Roman';
-  src: url(/fonts/Minecraft.ttf);
+  src: url(./fonts/Minecraft.ttf);
 }
 
 /* THE LIKE BASE FOR STUFF */
@@ -23,7 +23,7 @@ body {
   text-align: left;
   color:rgba(240, 240, 240, 0.8);
   padding: 20px;
-  background-image: url(/images/BACK.jpg);
+  background-image: url(./images/BACK.jpg);
   background-color: black;
   margin-left: 10%;
   margin-right: 10%;
@@ -65,7 +65,7 @@ h2{
   color:black;
   padding: 20px;
   margin-top: 20px;
-  background: url(images/BOXYBABY.jpg);
+  background: url(./images/BOXYBABY.jpg);
 }
 
 /* Clear floats after the columns */

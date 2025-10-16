@@ -5,7 +5,7 @@
 /* font sets */
 @font-face {
   font-family: Arial;
-  src: url(/fonts/CheeseOrange-Regular.ttf);
+  src: url(./fonts/CheeseOrange-Regular.ttf);
 }
 
 /* site information */
@@ -16,7 +16,7 @@ body {
   color:rgba(0, 0, 0, 0.8);
   padding: 20px;
   background: rgba(167, 181, 229, 1);
-  background-image:url(/images/hhhbackground.jpg);
+  background-image:url(./images/hhhbackground.jpg);
   background-blend-mode: lighten;
 } 
 
@@ -29,7 +29,7 @@ body {
   text-align: center;
   color:rgba(240, 240, 240, 1);
   text-shadow: 10px 10px 2px rgba(167, 181, 229, 1);;
-  background:url(/images/hhhbackground.jpg);
+  background:url(./images/hhhbackground.jpg);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   background-size: 100%;
   background-repeat: no-repeat;

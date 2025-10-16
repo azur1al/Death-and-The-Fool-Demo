@@ -5,12 +5,12 @@
 /* Font Imports */
 @font-face {
   font-family: Arial;
-  src: url(/fonts/BLUEOCEAN.ttf);
+  src: url(./fonts/BLUEOCEAN.ttf);
 }
 
 @font-face {
   font-family: 'Times New Roman';
-  src: url(/fonts/sign-handwriting.ttf);
+  src: url(./fonts/sign-handwriting.ttf);
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 .header {
   height: 350px;
   padding: 30px;  
-  background:url(/images/profile1.jpg);
+  background:url(./images/profile1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
